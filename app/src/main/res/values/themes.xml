@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JukskeiWiki" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <!-- Normal app theme -->
+    <style name="Theme.JukskeiWiki" parent="Base.Theme.JukskeiWiki" />
+
+    <!-- Splash Screen Theme for Android 12+ -->
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <!-- Set the background color -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Set your splash image (centered by default) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_image</item>
+
+        <!-- Optional: control duration -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- After splash, use your normal app theme -->
+        <item name="postSplashScreenTheme">@style/Theme.JukskeiWiki</item>
+    </style>
+
+</resources>
